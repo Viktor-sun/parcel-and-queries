@@ -1,0 +1,38 @@
+{
+  "name": "parcel-and-queries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /Viktor-sun/",
+    "preinstall": "npx npm-force-resolutions",
+    "predeploy": "npm run build ",
+    "deploy": "gh-pages -d dist",
+    "server": "json-server --watch db.json --delay 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor-sun/parcel-and-queries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor-sun/parcel-and-queries/issues"
+  },
+  "homepage": "https://Viktor-sun.github.io/parcel-and-queries#readme",
+  "resolutions": {
+    "node-forge": "0.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "json-server": "^0.16.3",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
