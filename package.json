@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "parcel-plugin-nuke-dist": "^1.0.1"
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "smooth-scrollbar": "^8.6.0"
   }
 }

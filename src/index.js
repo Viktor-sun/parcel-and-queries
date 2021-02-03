@@ -1,5 +1,6 @@
 import './style.scss';
 import './js/axios';
+import './js/scrollbar'
 
 const BASE_URL = 'http://localhost:3000/';
 
